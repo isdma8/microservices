@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.devsuperior.hrworker.entities.Worker;
 import com.devsuperior.hrworker.repositories.WorkerRepository;
 
-@RefreshScope
+@RefreshScope //se mudarmos as configs nao temos de derrebuar os servers para ficar disponivel, fica logo
 @RestController
 @RequestMapping(value = "/workers")
 public class WorkerResource {

@@ -8,7 +8,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @EnableCircuitBreaker
 @EnableEurekaClient
-@EnableFeignClients
+@EnableFeignClients   //Para comunicar projeto com outro
 @SpringBootApplication
 public class HrPayrollApplication {
 
